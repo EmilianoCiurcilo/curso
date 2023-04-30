@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayuda</title>
+</head>
+<body>
+    <h1>Ayuda</h1> 
+    <main>
+        <form action="#" method="post"> 
+            <div> 
+                <label for="textNombre">Nombre*</label> 
+                <input type="text" name="textNombre" id="textNombre" required>
+             </div>
+            <div> 
+                <label for="textApellido">Apellido*</label> 
+                <input type="text" name="textApellido" id="textApellido" required>
+            </div>
+            <div>
+                <label for="correo">Correo*</label>
+                <input type="email" name="correo" id="correo" required placeholder="Ej: DemTech@gmail.com">
+            </div>
+
+            <div> 
+                <label for="textMensaje">Contanos en que podemos ayudarte*</label>
+                <textarea name="textMensaje" id="textMensaje" required placeholder="Escribe aqui..." cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                 <input type="checkbox" name="checkboxNoticias" id="checkboxNoticias">
+                <label for="checkboxNoticias">¿Desea recibir novedades sobre nuestros productos?</label>
+            </div>
+            <div>
+                <input type="checkbox" name="checkboxTyC" id="checkboxTyC" required>
+                <label for="checkboxTyC">Acepta nuestros Términos y Condiciones</label>
+            </div>
+            <div>
+                <button type="submit" name="btnEnviar" id="btnEnviar" >Enviar</button>
+
+            </div>
+        </form>
+
+    </main>
+
+</body>
+</html>
