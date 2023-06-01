@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+.carousel-inner {
+    position: center;
+    width: 1220px;
+    margin: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.imagenC {
+    width: 1220px;
+    height: 800px;
+}
+.menu-horizontal{
+max-width: none;
+margin: auto;
+background-color: rgb(0, 0, 0);
+font-size: 20px;
+margin-top: 0px;
+}
+.menu-horizontal{
+list-style: none;
+display: flex;
+justify-content: space-around;
+}
+.menu-horizontal > li > a {
+display: block;
+padding: 15px 20px;
+color: white;
+text-decoration: none;
+}
+.menu-horizontal > li:hover{
+background-color: rgb(61, 61, 61);
+}
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 5);
+}
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+}
+.menu-vertical li:hover {
+    background-color: rgb(61, 61, 61);
+}
+.menu-vertical li a{
+    display: block;
+    color: white;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+}
+
+.pie{
+    background-color: rgb(0, 0, 0);
+    color : white
+}
+.redes button { 
+    display: inline-block;
+    background-color: rgb(102, 102, 102);
+    min-height: 45px;
+    width: 45px;
+    margin: 0px 10px 10px 0px;
+    text-align: left;
+    border: 0;
+    border-radius: 50%;
+    color: white;
+}
+.redes {
+    font-size: 30px;
+    text-align: center;
+ }
+ .redes button:hover { 
+    background-color: blue ;
+ }
+.section{
+    display: flex;
+    padding: 30px;
+    justify-content: space-evenly;
+    font-size: 20px;
+    gap : 40px
+}
+.section div {
+    display: flex;
+    flex-direction: column;
+}
+div h2{
+    display: flex;
+    flex-direction: column;
+    padding :10px 10px;
+    color : white
+}
+div a{ 
+    color : rgb(163, 163, 163) ;
+    text-decoration: none;
+    padding: 10px;
+}
+div a:hover{ 
+    color: rgb(255, 255, 255);
+}
+
+.copyright { 
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 30px;
+    margin: 0;
+    color: white;
+}
+.logo{
+    text-align: center ;
+    padding-right: 200px ;
+    background-color: rgb(34, 34, 34);
+}
+.buscador {
+    position: relative;
+}
+input {
+    background-color: rgb(255, 255, 255) ;
+    margin: 10px 0px 10px 50px;
+    padding: 15px 45px;
+    border-radius: 40px;
+    border: 0px;
+    outline: none;
+}
+.lupa {
+    background-color: rgb(185, 185, 185);
+    padding: 12px 15px ;
+    border-radius: 50%;
+    border: 0;
+    top: 0;
+    bottom: 0;
+    margin: 0;
+}
+.lupa:hover {
+    background-color: rgb(255, 79, 79);
+}
