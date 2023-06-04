@@ -8,10 +8,16 @@ body{
     margin: 0px;
     margin-right: auto;
     margin-left: auto;
+    border: none;
 }
 .imagenC {
     width: 1220px;
     height: 800px;
+    border: none;
+}
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+    z-index: 100;
 }
 .menu-horizontal{
 max-width: none;
@@ -38,7 +44,7 @@ background-color: rgb(61, 61, 61);
     position: absolute;
     display: none;
     list-style: none;
-    width: 200px;
+    width: 220px;
     background-color: rgba(0, 0, 0, 5);
 }
 .menu-horizontal li:hover .menu-vertical{
@@ -53,30 +59,61 @@ background-color: rgb(61, 61, 61);
     padding: 15px 15px 15px 20px;
     text-decoration: none;
 }
-
 .pie{
     background-color: rgb(0, 0, 0);
     color : white
 }
-.redes button { 
-    display: inline-block;
+.redes {
+    font-size: 30px;
+    text-align: auto;
+    list-style: none;
+ }
+ 
+ .redes .ig {
     background-color: rgb(102, 102, 102);
-    min-height: 45px;
-    width: 45px;
-    margin: 0px 10px 10px 0px;
-    text-align: left;
     border: 0;
     border-radius: 50%;
     color: white;
-}
-.redes {
-    font-size: 30px;
-    text-align: center;
+    padding: 8px 12px 8px 12px;
  }
- .redes button:hover { 
+ .redes .yt {
+    background-color: rgb(102, 102, 102);
+    border: 0;
+    border-radius: 50%;
+    color: white;
+    padding: 8px 12px 8px 12px ;
+ }
+ .redes .tw {  
+    background-color: rgb(102, 102, 102);
+    border: 0;
+    border-radius: 50%;
+    color: white;
+    padding: 8px 12px 8px 12px;
+ }
+ .redes .fb {
+    background-color: rgb(102, 102, 102);
+    border: 0;
+    border-radius: 50%;
+    color: white;
+    padding: 8px 12px 8px 12px;
+ }
+ 
+ .redes .fb:hover { 
     background-color: blue ;
  }
-.section{
+ .redes .yt:hover { 
+    background-color: rgb(255, 0, 0) ;
+ }
+ .redes .tw:hover { 
+    background-color: rgb(0, 225, 255) ;
+ }
+ .redes .ig:hover { 
+    background-color: rgb(195, 0, 255) ;
+ }
+ .links{ 
+    margin-top : 12px;
+ }
+ .section{
     display: flex;
     padding: 30px;
     justify-content: space-evenly;
@@ -100,6 +137,7 @@ div a{
 }
 div a:hover{ 
     color: rgb(255, 255, 255);
+    font-style: italic;
 }
 
 .copyright { 
@@ -137,4 +175,55 @@ input {
 }
 .lupa:hover {
     background-color: rgb(255, 79, 79);
+}
+.pcArmadas-T{
+    display: flex;
+    margin: 0px;
+    padding: 0 1000px 0 1000px;
+    justify-content: center;
+    background-color: rgb(216, 216, 216);
+}
+.pc-armada-AMD{
+    border: 10px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5%;
+    background-color: rgb(255, 255, 255);
+}
+.pc-armada-INTEL{
+    border: 10px;
+    border-color: black;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5%;
+    background-color: rgb(255, 255, 255)
+}
+.especificaciones {
+    display: flex;
+    font-size: 22px;
+    text-align: left;
+}
+.precio {
+    color: rgb(0, 162, 255);
+    font-size:27px;
+    text-align: left;
+}
+.mensaje {
+    display: flex;
+    justify-content: center;
+    margin:5px;
+    border: 10px;
+    border-radius: 30%;
+    background-color: white;
+    font-size:27px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.imagen-PcarmadaAMD{
+    width: 100%;
+}
+.imagen-PcarmadaINTEL{
+    width: 100%;
+}
+.texto-pcArmadaINTEL{
+    padding-top: 44px;
 }
