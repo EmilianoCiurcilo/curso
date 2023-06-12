@@ -318,7 +318,7 @@ div a:hover{
     padding-bottom: 40px;
 }
 .Continuar{
-    color:rgb(0, 144, 240) ;
+    color:rgb(0, 243, 12) ;
 }
 .Cancelar{
     color:rgb(216, 0, 0) ;
@@ -350,14 +350,14 @@ div a:hover{
     font-size: 25px;
     padding: 10px 15px;
     margin-left: 10px;
-    background-color: rgb(53, 174, 255);
+    background-color: rgb(0, 243, 12);
     border: 0;
     border-radius: 5px;
     height: 55px;
 }
 .btn-continuar:hover {
     box-shadow: 0 2px 4px;
-    background-color: rgb(0, 144, 240);
+    background-color: rgb(2, 224, 39);
 }
 .botones-ventana{
     display: flex;
