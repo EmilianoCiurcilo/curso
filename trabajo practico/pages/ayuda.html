@@ -14,7 +14,7 @@
     <header> 
         <section> 
             <div class="logo"> 
-                <img class="ImagenL" src="./FOTOS CURSO/logo2.png" alt="Logo DemTech">
+                <img class="ImagenL" src="/FOTOS TERMINADAS/logo.png" alt="Logo DemTech">
                     <input class="buscador" type="text" placeholder="Buscar...">
                         <button class="lupa"><i class="fa-solid fa-magnifying-glass"></i></button>   
             </div>
@@ -22,64 +22,42 @@
         </section> 
         <nav> 
             <ul class="menu-horizontal"> 
-                <li><a href="index.html">Inicio</a></li>
+                <li><a href="/index.html">Inicio</a></li>
                 <li>
-                    <a href="productos.html">Productos</a>
+                    <a href="/CURSO/trabajo practico/pages/productos.html">Productos</a>
                     <ul class="menu-vertical">
-                        <li><a href="">Procesadores</a></li>
-                        <li><a href="">Motherboard</a></li>
-                        <li><a href="">Almacenamiento</a></li>
-                        <li><a href="">Memorias RAM</a></li>
-                        <li><a href="">Placas de Video</a></li>
-                        <li><a href="">Fuentes</a></li>
-                        <li><a href="">Gabinetes</a></li>
-                        <li><a href="">Monitores</a></li>
-                        <li><a href="">Perifericos</a></li>
+                        <li><a href="/CURSO/trabajo practico/pages/productos lista/procesadores.html">Procesadores</a></li>
+                        <li><a href="/CURSO/trabajo practico/pages/productos lista/motherboards.html">Motherboard</a></li>
+                        <li><a href="/CURSO/trabajo practico/pages/productos lista/almacenamiento.html">Almacenamiento</a></li>
+                        <li><a href="/CURSO/trabajo practico/pages/productos lista/memorias-RAM.html">Memorias RAM</a></li>
+                        <li><a href="/CURSO/trabajo practico/pages/productos lista/placas-de-video.html">Placas de Video</a></li>
+                        <li><a href="/CURSO/trabajo practico/pages/productos lista/fuentes.html">Fuentes</a></li>
+                        <li><a href="/CURSO/trabajo practico/pages/productos lista/gabinetes.html">Gabinetes</a></li>
+                        <li><a href="/CURSO/trabajo practico/pages/productos lista/monitores.html">Monitores</a></li>
+                        <li><a href="/CURSO/trabajo practico/pages/productos lista/perifericos.html">Perifericos</a></li>
                     </ul>
                 </li>
                 <li><a href="pc-armadas.html">PC Armadas</a></li>
-                <li>
+                <!-- <li>
                     <a href="arma-tu-pc.html">Arma tu PC</a>
                     <ul class="menu-vertical">
                         <li><a href="">AMD</a></li>
                         <li><a href="">INTEL</a></li>
                     </ul>
-                </li>
+                </li> -->
                 <li><a href="ayuda.html">Ayuda</a></li>
             </ul>
         </nav>
     </header> 
         <main>
-            <form action="#" method="post"> 
-                <div> 
-                    <label for="textNombre">Nombre*</label> 
-                    <input type="text" name="textNombre" id="textNombre" required>
-                </div>
-                <div> 
-                    <label for="textApellido">Apellido*</label> 
-                    <input type="text" name="textApellido" id="textApellido" required>
-                </div>
-                <div>
-                    <label for="correo">Correo*</label>
-                    <input type="email" name="correo" id="correo" required placeholder="Ej: DemTech@gmail.com">
-                </div>
-
-                <div> 
-                    <label for="textMensaje">Contanos en que podemos ayudarte*</label>
-                    <textarea name="textMensaje" id="textMensaje" required placeholder="Escribe aqui..." cols="30" rows="10"></textarea>
-                </div>
-                <div>
-                    <input type="checkbox" name="checkboxNoticias" id="checkboxNoticias">
-                    <label for="checkboxNoticias">¿Desea recibir novedades sobre nuestros productos?</label>
-                </div>
-                <div>
-                    <input type="checkbox" name="checkboxTyC" id="checkboxTyC" required>
-                    <label for="checkboxTyC">Acepta nuestros Términos y Condiciones</label>
-                </div>
-                <div>
-                    <button type="submit" name="btnEnviar" id="btnEnviar" >Enviar</button>
-                </div>
-            </form>
+            <section class="Formulario">
+                <h2>Ingrese sus datos para Comunicarnos con usted</h2>
+                <input class="texto-form" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+                <input class="texto-form" type="email" name="correo" id="correo" placeholder="Ingrese su Correo Electrónico">
+                <input class="texto-form-duda" type="text" name="texto" id="texto_form" placeholder="Ingrese aquí en que podemos ayudarlo">
+                <p>Estoy de acuerdo con <br> <a href="#">Terminos y Condiciones</a></p>
+                <input class="btn-form" type="submit" value="Enviar" >
+            </section>
         </main>
     
         <footer class="pie">
@@ -116,6 +94,5 @@
             <P class="copyright"> Copyright © 2003 - 2023</P>
             
         </footer>
-
 </body>
 </html>
