@@ -362,7 +362,7 @@ div a:hover{
 .botones-ventana{
     display: flex;
 }
-.ventana-emergente2{
+/* .ventana-emergente2{
     display: flex;
     background-color: rgb( rgb(143, 143, 143)) ;
     align-items: center;
@@ -374,8 +374,8 @@ div a:hover{
     left: 0 ;
     height: 100vh;
     width: 100vw;
- }
- .ver2 {
+ } */
+ /* .ver2 {
     pointer-events: auto;
     opacity: 1;
  }
@@ -387,8 +387,8 @@ div a:hover{
    padding: 50px 180px;
    border-radius: 10px;
    box-shadow: 0 4px 10px;
-}
-.titulo-texto2{
+} */
+/* .titulo-texto2{
    display: flex;
    justify-content: center;
    text-align: center;
@@ -405,7 +405,7 @@ div a:hover{
    text-align: left;
    color: rgb(54, 54, 54);
    padding-bottom: 40px;
-}
+} */
 .Formulario {
     background-color: rgb(206, 206, 206);
     width: 700px;
